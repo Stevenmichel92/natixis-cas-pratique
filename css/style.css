@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Header */
+@media (max-width: 575px) { 
+    .container_header {
+        margin-top:3%;
+        display:flex;
+        flex-direction: column;
+    }
+    .titre_page{
+        color:#333333;
+        font-size:25px;
+        margin-left:-20%;
+    }
+    .left{
+        text-align:center;
+    }
+    .center{
+        text-align:center;
+        line-height: 200%;
+    }    
+}
+@media (min-width: 576px) { 
+    .container_header {
+        margin-top:3%;
+        display: flex;
+      }
+    .left, .right {
+        flex: 1;
+    }
+    .left{
+        margin-left:2%;
+    }
+    .center{
+        line-height: 200%;
+    }    
+    .titre_page{
+        color:#333333;
+        font-size:25px;
+        margin-left:-20%;
+    }
+    
+}
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+	display : table;
+	width: 100%;
+}
+
+/* Accordion */
+.accordion-button:not(.collapsed){
+    background-color: #581d74;
+    color:white;
+}
+.accordion-button{
+    background-color: #f2f2f2;
+    color:black;
+}
+
+@media (min-width: 770px) { 
+    .first-accordion-body{
+        margin-left:10%;
+        margin-right:10%;
+    }
+}
+@media (min-width: 576px) { 
+    .first-accordion-body{
+        margin-left:7%;
+        margin-right:7%;
+
+    }
+    .first-accordion-content{
+        border-right: solid 1px #9b9b9b;
+        padding-right: 8%;
+    }
+    .lounge{
+        padding-left:8%;
+        margin-top:5%!important;
+    }
+}
+@media (max-width: 575px) { 
+    .lounge{
+        text-align:center!important;
+        margin-top:5%!important;
+        margin-bottom:2%!important;
+    }
+}
+
+.titre_page_gras{
+    font-size:40px;
+    font-weight: bold;
+    padding-left:20%;
+    color:#581d74;
+}
+
+.sous_titre{
+    color:#4a4a4a;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.lounge_inactive{
+    color:#aaaaaa;
+}
+
+#sauvegarder{
+    background-color: #006e6f;
+}
+
+#natixis_logo_bas{
+    float:right;
+    margin-right:5%;
+}
+
+
+footer {
+	display : table-row;
+	height: 100px;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+ }
+
+
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -3px;
+    left: -1px;
+    position: relative;
+    background-color: #581d74;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+textarea.form-control {
+    height: 185px;
+}
+
+.col-12{
+    margin:2% 0 1% 0;
+}
+
+/* Dropdown */
+.dd-selected-image, .dd-option-image{
+    width:30px;
+}
+.dd-select, #myDropdown, .dd-container{
+    width: 100%!important;
+    background-color: white!important;
+}
+.dd-selected-text{
+    color: #581d74;
+}
+a {
+    color:#4a4a4a;
+    text-decoration: none;
+}
+.dd-options{
+    width:100%!important;
+}
